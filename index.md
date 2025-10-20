@@ -41,5 +41,3 @@ document.addEventListener('DOMContentLoaded', function () {
 [Portfolio](portfolio.md)
 
 [Instagram](https://www.instagram.com/wils.harp/)
-
-[HN](https://news.ycombinator.com/user?id=WilsonHarper)
