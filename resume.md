@@ -56,4 +56,3 @@ title: "Resume"
 • <strong>Programming:</strong> Python, ArduPilot, CAD (Fusion 360, OnShape), Soldering, Avionics Systems<br>
 • <strong>Hardware:</strong> Soldering, UAV design, LiDAR, Telemetry, 3D Printing
 </p>
-```
