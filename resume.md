@@ -15,6 +15,8 @@ title: "Resume"
 • Served 2300+ students as Student Body President with $63k budget<br>
 • Earned IB diploma with 3.99 GPA and WA State Seal of Biliteracy in Spanish</p>
 
+<hr>
+
 <h2>Technical Experience</h2>
 
 <p><strong>Avionics Design, Rice Flight <span style="float:right;">2025 - Present</span></strong><br>
@@ -39,6 +41,8 @@ title: "Resume"
 • Served as Mars Rover Project Lead, developing outlines and designs for multiple Mars rovers<br>
 • Presented research on viable manned Mars vehicle to industry professionals</p>
 
+<hr>
+
 <h2>General Experience</h2>
 
 <p><strong>Summer Camp Staff, Spokane, WA <span style="float:right;">2025</span></strong><br>
@@ -49,6 +53,8 @@ title: "Resume"
 <p><strong>Board Co-Chair, Yakima Valley Community Foundation Youth Leadership Council <span style="float:right;">2023 - 2025</span></strong><br>
 • Allocated $100,000+ in funding to local nonprofits<br>
 • Evaluated 30+ grant applications with community leaders’ mentorship</p>
+
+<hr>
 
 <h2>Skills</h2>
 
