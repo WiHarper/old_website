@@ -8,7 +8,7 @@
 # ⠀
 
 ## Synthetic Aperture Radar, MIT Lincoln Laboratory RISE
-### 2023
+### 2024
 
 <iframe src="{{ '/assets/LLRISE.pdf' | relative_url }}" width="100%" height="600px">
 </iframe>
