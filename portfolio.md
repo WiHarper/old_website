@@ -7,7 +7,7 @@
 </iframe>
 # ⠀
 
-## Synthetic Aperture Radar, MIT Lincoln Laboratory
+## Synthetic Aperture Radar, MIT Lincoln Laboratory RISE
 ### 2023
 
 <iframe src="{{ '/assets/LLRISE.pdf' | relative_url }}" width="100%" height="600px">
@@ -22,14 +22,14 @@
 # ⠀
 
 ## Mars Rover Design, University of Washington Aerospace Scholars
-### 2023
+### 2024
 
 <iframe src="{{ '/assets/WAS.pdf' | relative_url }}" width="100%" height="600px">
 </iframe>
 # ⠀
 
 ## Commercial Space, University of Washington Aerospace Scholars
-### 2023
+### 2024
 
 <iframe src="{{ '/assets/WAS_essay.pdf' | relative_url }}" width="100%" height="600px">
 </iframe>
