@@ -19,7 +19,7 @@
 
 <iframe src="{{ '/assets/EE.pdf' | relative_url }}" width="100%" height="600px">
 </iframe>
-#
+# ⠀
 
 ## Mars Rover Design, University of Washington Aerospace Scholars
 ### 2023
