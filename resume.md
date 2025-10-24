@@ -5,71 +5,55 @@ title: "Resume"
 ---
 # Resume
 
-## **EDUCATION**
+<h2>Education</h2>
 
-**Rice University	Class of 2029**
+<p><strong>Rice University <span style="float:right;">Class of 2029</span></strong><br>
+• B.S. Electrical &amp; Computer Engineering; Minor in Entrepreneurship<br>
+• Serving freshman class as New Student Representative in Martel College parliament</p>
 
-* B.S. Electrical & Computer Engineering; Minor in Entrepreneurship
-* Serving freshman class as New Student Representative in Martel College parliament
+<p><strong>Davis High School <span style="float:right;">2021 - 2025</span></strong><br>
+• Served 2300+ students as Student Body President with $63k budget<br>
+• Earned IB diploma with 3.99 GPA and WA State Seal of Biliteracy in Spanish</p>
 
-**Davis High School	2021 - 2025**
+<h2>Technical Experience</h2>
 
-* Served 2300+ students as Student Body President with $63k budget
-* Earned IB diploma with 3.99 GPA and WA State Seal of Biliteracy in Spanish
+<p><strong>Avionics Design, Rice Flight <span style="float:right;">2025 - Present</span></strong><br>
+• Leading the design of thrust test stand to measure efficiency for UAV optimization<br>
+• Programming and integrating Arduinos with load cells, current sensors, etc. to collect data</p>
 
-## **TECHNICAL EXPERIENCE**
+<p><strong>Active Fin Stabilization, Rice Eclipse Rocketry <span style="float:right;">2025 - Present</span></strong><br>
+• Designing avionics for rocket active fin stabilization system<br>
+• AFS system will go on space-shot rocket to exceed the Kármán line</p>
 
-**Avionics Design, Rice Flight	2025 - Present**
+<p><strong>Chapter President &amp; National Voting Delegate, Technology Student Association <span style="float:right;">2018 - 2025</span></strong><br>
+• Served as chapter president and national conference voting delegate for 50+ students<br>
+• Won 6 state-level awards and qualified for national contest three times<br>
+• Led creation of fully open-source UAV from conception to completion</p>
 
-* Leading the design of thrust test stand to measure efficiency for UAV optimization
-* Programming and integrating Arduinos with load cells, current sensors, etc. to collect data
+<p><strong>Researcher, MIT Lincoln Laboratory RISE <span style="float:right;">2024</span></strong><br>
+• Selected from top 4% of applicants for free residential program at DoD-sponsored FFRDC<br>
+• Researched, built, and programmed Doppler and synthetic aperture radars<br>
+• Gained experience in soldering, CAD, signal processing, and research, mentored by Lincoln Labs staff</p>
 
+<p><strong>Project Lead, University of Washington Aerospace Scholars <span style="float:right;">2023 - 2024</span></strong><br>
+• Served as Mars Rover Project Lead, developing outlines and designs for multiple Mars rovers<br>
+• Presented research on viable manned Mars vehicle to industry professionals</p>
 
+<h2>General Experience</h2>
 
-**Electrical Active Fin Stabilization, Rice Eclipse Rocketry	2025 - Present**
+<p><strong>Summer Camp Staff, Spokane, WA <span style="float:right;">2025</span></strong><br>
+• Responsible for up to 65 guests at remote location accessible only by boat<br>
+• Learned high-stakes logistics planning due to remote environment<br>
+• Duties ranged from comforting homesick children to cleaning large amounts of septic waste</p>
 
-* Designing avionics for active fin stabilization system
-* AFS system will go on space-shot rocket to exceed the Kármán line
+<p><strong>Board Co-Chair, Yakima Valley Community Foundation Youth Leadership Council <span style="float:right;">2023 - 2025</span></strong><br>
+• Allocated $100,000+ in funding to local nonprofits<br>
+• Evaluated 30+ grant applications with community leaders’ mentorship</p>
 
+<h2>Skills</h2>
 
-
-**Chapter President & National Voting Delegate, Technology Student Association	  2018 - 2025**
-
-* Served as chapter president and national conference voting delegate for 50+ students
-* Won 6 state-level awards and qualified for national contest three times
-* Led creation of fully open-source UAV from conception to completion
-
-
-
-**Researcher, MIT Lincoln Laboratory RISE	2024**
-
-* Selected from top 4% of applicants for free residential program at DoD-sponsored FFRDC
-* Researched, built, and programmed Doppler and synthetic aperture radars
-* Gained experience in soldering, CAD, signal processing, and research, mentored by Lincoln Labs staff
-
-
-
-**Project Lead, University of Washington Aerospace Scholars	2023-2024**
-
-* Served as Mars Rover Project Lead, developing outlines and designs for multiple Mars rovers
-* Presented research on viable manned Mars vehicle to industry professionals
-
-
-
-## **GENERAL EXPERIENCE**
-
-**Summer Camp Staff, Spokane, WA	  2025**
-
-* Responsible for up to 65 guests at remote location accessible only by boat
-* Learned high-stakes logistics planning due to remote environment
-* Duties ranged from comforting homesick children to cleaning large amounts of septic waste
-
-**Board Co-Chair, Yakima Valley Community Foundation Youth Leadership Council	2023 - 2025**
-
-* Allocated $100,000+ in funding to local nonprofits
-* Evaluated 30+ grant applications with community leaders’ mentorship
-
-## **SKILLS**
-
-* **Programming:** Python, ArduPilot, CAD (Fusion 360, OnShape), Soldering, Avionics Systems
-* **Hardware:** Soldering, UAV design, LiDAR, Telemetry, 3D Printing
+<p>
+• <strong>Programming:</strong> Python, ArduPilot, CAD (Fusion 360, OnShape), Soldering, Avionics Systems<br>
+• <strong>Hardware:</strong> Soldering, UAV design, LiDAR, Telemetry, 3D Printing
+</p>
+```
