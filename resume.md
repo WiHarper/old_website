@@ -5,7 +5,7 @@ title: "Resume"
 ---
 # Resume
 
-[Download as PDF](/assets/Resume - Wilson Harper.pdf)
+[Download as PDF](/assets/Resume_Wilson_Harper.pdf)
 
 <h2>Education</h2>
 
