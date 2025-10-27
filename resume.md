@@ -5,6 +5,8 @@ title: "Resume"
 ---
 # Resume
 
+[Download as PDF](/assets/Resume - Wilson Harper.pdf)
+
 <h2>Education</h2>
 
 <p><strong>Rice University <span style="float:right;">Class of 2029</span></strong><br>
