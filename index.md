@@ -14,9 +14,9 @@ I'm Wilson, an electrical and computer engineering major at Rice University fasc
 
 
 <!-- put this where you want the email to appear -->
-<div id="email" data-user="hey" data-domain="wilsonharper.net"></div>
+<div id="email" data-user="hello" data-domain="wilsonharper.net"></div>
 
-<noscript>hey [at] wilsonharper [dot] net</noscript>
+<noscript>hello [at] wilsonharper [dot] net</noscript>
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
