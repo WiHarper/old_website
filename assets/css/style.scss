@@ -3,10 +3,46 @@
 
 @import "{{ site.theme }}";
 
+/* ---------- Make the main content area wider, without affecting header ---------- */
 
-/* Make the main container wider */
-.wrapper {
-  max-width: 1100px; /* Default is ~740px — adjust to your liking */
+/* 1) Narrow header back to a comfortable width (so title / nav stay centered and slim) */
+.site-header .wrapper,
+.header-inner .wrapper {
+  max-width: 780px;   /* keep header narrow — tweak as desired */
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* 2) Widen the page/post content area */
+main.site-main,
+.main-content,
+.page .wrapper,
+.post .wrapper,
+.page-wrapper,
+.article-wrapper {
+  /* Use a larger max-width just for content areas.
+     We target a handful of likely selectors to cover the Minimal theme variants. */
+  max-width: 1100px !important;
   width: 90%;
   margin: 0 auto;
+}
+
+/* 3) Ensure the actual article / markdown area uses full available width */
+article,
+.post,
+.page-content,
+.markdown-body {
+  max-width: 100%;
+}
+
+/* 4) Responsive: keep it readable on small screens */
+@media (max-width: 900px) {
+  main.site-main,
+  .main-content,
+  .page .wrapper,
+  .post .wrapper {
+    width: 96%;
+    max-width: none;
+    padding: 0 1rem;
+  }
 }
