@@ -3,12 +3,12 @@
 
 @import "{{ site.theme }}";
 
+
+/* Make the main container wider */
 .wrapper {
-
+  max-width: 1100px; /* Default is ~740px — adjust to your liking */
   width: 90%;
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
-
+}
 
 }
