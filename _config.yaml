@@ -4,4 +4,8 @@ plugins:
 
 theme: jekyll-theme-minimal
 title: Wilson Harper
-description:
+description: I’m Wilson Harper, an electrical and computer engineering major at Rice University fascinated by radars, rockets, and avionics. I’ve previously designed and researched synthetic aperture radars at the MIT Lincoln Lab, and at Rice, I’m involved in Rice Flight and Rice Eclipse rocketry. I’m excited to get even more hands-on, practical experience with CompE and signal processing. I’d love to chat about ECE, aerospace, Rice, or anything else!
+
+
+sass:
+  sass_dir: assets/css
