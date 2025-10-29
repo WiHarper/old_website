@@ -3,28 +3,37 @@
 
 @import "{{ site.theme }}";
 
-/* --- Make main content area wider in Minimal theme --- */
+/* --- Make main content wider and align it next to sidebar --- */
 section {
-  width: 800px;      /* increase this number until it looks right (e.g. 700–900px) */
+  width: 800px;          /* Increase content width */
   float: right;
   padding-bottom: 50px;
+  margin-left: 290px;    /* Push content to the right of sidebar (270px + a bit of gap) */
 }
 
-/* Optional: widen on larger screens only */
-@media screen and (min-width: 960px) {
-  section {
-    width: 900px;
-  }
-}
-
-/* Keep header and footer fixed width */
-header, footer {
+/* Keep the sidebar fixed on the left */
+header {
   width: 270px;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
-/* Ensure wrapper remains centered if layout breaks on small screens */
-@media screen and (max-width: 960px) {
-  div.wrapper {
+/* Footer stays under sidebar, not under content */
+footer {
+  width: 270px;
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+}
+
+/* Adjust layout on smaller screens so it stacks */
+@media print, screen and (max-width: 960px) {
+  header,
+  section,
+  footer {
+    float: none;
+    position: static;
     width: auto;
     margin: 0;
   }
