@@ -3,23 +3,18 @@
 
 @import "{{ site.theme }}";
 
-/* --- Make main content wider and align it next to sidebar --- */
-section {
-  width: 800px;          /* Increase content width */
-  float: right;
-  padding-bottom: 50px;
-  margin-left: 290px;    /* Push content to the right of sidebar (270px + a bit of gap) */
-}
-
-/* Keep the sidebar fixed on the left */
+/* --- Sidebar (header) fixed on the left --- */
 header {
   width: 270px;
   position: fixed;
   left: 0;
   top: 0;
+  bottom: 0;
+  padding: 50px 20px;
+  background: white; /* optional, in case text scrolls behind */
 }
 
-/* Footer stays under sidebar, not under content */
+/* --- Footer stays under header (for wide screens) --- */
 footer {
   width: 270px;
   position: fixed;
@@ -27,14 +22,28 @@ footer {
   left: 0;
 }
 
-/* Adjust layout on smaller screens so it stacks */
-@media print, screen and (max-width: 960px) {
-  header,
-  section,
-  footer {
-    float: none;
+/* --- Main content section next to sidebar --- */
+section {
+  position: relative;
+  margin-left: 290px;  /* space for sidebar */
+  width: auto;         /* let it fill remaining width */
+  max-width: 900px;    /* limit line length for readability */
+  padding: 50px 40px;  /* breathing room inside content */
+  box-sizing: border-box;
+}
+
+/* --- Make sure wrapper doesn’t constrain width anymore --- */
+.wrapper {
+  width: auto;
+  margin: 0 auto;
+}
+
+/* --- Mobile / small screen fix: stack header and content --- */
+@media screen and (max-width: 960px) {
+  header, footer, section {
     position: static;
     width: auto;
     margin: 0;
+    padding: 20px;
   }
 }
