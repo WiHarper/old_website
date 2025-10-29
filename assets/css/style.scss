@@ -3,28 +3,29 @@
 
 @import "{{ site.theme }}";
 
-/* ---- Anchor the page left and increase the working width ----
-   Adjust `1100px` to taste (bigger number = wider). */
+/* Keep container anchored to the left */
 .wrapper,
 .site,
 .container,
 .site-main {
-  max-width: 1100px !important;    /* new wider width */
-  width: 100% !important;
-  margin-left: 0 !important;       /* attach to left edge of available area */
-  margin-right: auto !important;   /* allow it to expand to the right */
-  padding-left: 1.5rem;            /* small breathing room */
+  max-width: 1100px !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
-/* Keep the sidebar / right column inside that wider container */
-.sidebar,
-.site-aside {
-  /* ensure it stays inside new container — tweak only if you see overlap */
-  margin-left: auto;
+/* ---- Widen actual text/content area ---- */
+.main-content,
+.page-content,
+.post,
+.post-content,
+.content {
+  max-width: 900px !important;   /* Increase this until you like it */
+  width: 100% !important;
 }
 
-/* Keep header/footer matching the main container */
+/* Optional: widen header/footer for consistency */
 .site-header,
 .site-footer {
   max-width: 1100px !important;
