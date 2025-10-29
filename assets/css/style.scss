@@ -3,34 +3,45 @@
 
 @import "{{ site.theme }}";
 
+/* --- Widen content area --- */
+section {
+  width: 900px;       /* adjust to your taste */
+  float: right;
+  padding-bottom: 50px;
+}
 
-/* Make all pages’ main content area wider */
-body.layout--single .site-main,
-body.layout--home .site-main,
-body.layout--archive .site-main,
-body.layout--posts .site-main {
-  max-width: 1100px;
-  width: 90%;
+/* --- Let sidebar (header/footer) scroll with page --- */
+header,
+footer {
+  position: static;   /* remove the fixed positioning */
+  float: none;        /* stack naturally */
+  width: auto;
+}
+
+/* --- Adjust layout to look clean after removing fixed header --- */
+.wrapper {
+  width: auto;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Also adjust any wrapper inside to use full available width */
-.site-main .wrapper {
-  max-width: none;
+/* --- Optional spacing --- */
+header {
+  margin-bottom: 40px;
 }
 
-/* Make sure header & nav still stay nice and centered */
-.site-header .wrapper,
-.site-footer .wrapper {
-  max-width: 780px;
-  width: 100%;
-  margin: 0 auto;
+footer {
+  margin-top: 60px;
+  text-align: center;
+  color: #777;
+  font-size: 0.9em;
 }
 
-/* Mobile responsiveness fallback */
-@media (max-width: 900px) {
-  .site-main {
-    width: 96%;
-    max-width: none;
+/* --- Responsive tweak --- */
+@media screen and (max-width: 960px) {
+  section {
+    width: auto;
+    float: none;
+    padding: 0 1rem;
   }
 }
