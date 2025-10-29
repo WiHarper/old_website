@@ -1,8 +1,10 @@
 ---
-
 title: "Resume"
-
+layout: default
+page_class: resume-page
 ---
+
+
 # Resume
 
 <h2>Education</h2>
