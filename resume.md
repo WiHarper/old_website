@@ -27,7 +27,7 @@ title: "Resume"
 • Designing avionics for rocket active fin stabilization system<br>
 • AFS system will go on space-shot rocket to exceed the Kármán line</p>
 
-<p><strong>Chapter President &amp; National Voting Delegate, Technology Student Association <span style="float:right;">2018 - 2025</span></strong><br>
+<p><strong>Chapter President, UAV Captain, National Voting Delegate, Technology Student Association <span style="float:right;">2018 - 2025</span></strong><br>
 • Served as chapter president and national conference voting delegate for 50+ students<br>
 • Won 6 state-level awards and qualified for national contest three times<br>
 • Led creation of fully open-source UAV from conception to completion</p>
