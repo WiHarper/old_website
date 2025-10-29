@@ -3,32 +3,27 @@
 
 @import "{{ site.theme }}";
 
-/* Keep container anchored to the left */
-.wrapper,
-.site,
-.container,
-.site-main {
-  max-width: 1100px !important;
-  margin-left: 0 !important;
+/* --- Make the main wrapper fill more space and stay anchored left --- */
+.wrapper {
+  max-width: 1200px !important; /* increase overall site width */
+  margin-left: 0 !important;    /* anchor to left */
   margin-right: auto !important;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-/* ---- Widen actual text/content area ---- */
-.main-content,
-.page-content,
-.post,
-.post-content,
-.content {
-  max-width: 900px !important;   /* Increase this until you like it */
+/* --- Widen direct content area inside wrapper --- */
+.wrapper > section {
+  max-width: 1000px !important; /* wider actual text region */
   width: 100% !important;
 }
 
-/* Optional: widen header/footer for consistency */
-.site-header,
-.site-footer {
-  max-width: 1100px !important;
+/* Optional: match header/footer width for symmetry */
+header,
+footer {
+  max-width: 1200px !important;
   margin-left: 0 !important;
   margin-right: auto !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
