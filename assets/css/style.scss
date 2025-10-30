@@ -1,1 +1,22 @@
 
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Expand all main page content slightly to the left */
+.main-content,
+.wrapper,
+.page-content {
+  margin-left: 0;              /* Remove theme's built-in left spacing */
+  padding-left: 10px;          /* Keep a small inner padding for readability */
+  width: calc(100% + 40px);    /* Slightly expand total width */
+  transform: translateX(-20px); /* Shift expansion evenly to the left */
+  box-sizing: border-box;      /* Prevent horizontal overflow issues */
+}
+
+/* Keep header, footer, and nav centered or unaffected */
+header, .site-header, footer, .site-footer {
+  transform: none;
+  margin: 0 auto;
+}
