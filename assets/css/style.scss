@@ -4,22 +4,17 @@
 
 @import "{{ site.theme }}";
 
-/* Make the main content area wider than the header */
-.wrapper, .page-content, .main-content {
-  max-width: 900px; /* Increase this from the default ~800px */
-  margin-left: auto;
-  margin-right: auto;
+/* Expand main container width site-wide */
+.wrapper, .site-content, .page__inner-wrap, .page {
+  max-width: 100% !important;            /* allow full width */
+  width: calc(100% + 40px) !important;   /* expand by 40px */
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  transform: translateX(-20px) !important; /* shift left half of expanded width */
+  box-sizing: border-box;
 }
 
-/* Keep header narrower for contrast */
-header, .site-header {
-  max-width: 800px;  /* slightly smaller than main content */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-.page-content, .wrapper {
-  position: relative;
-  left: -10px;
+/* Ensure no horizontal overflow: optional */
+body {
+  overflow-x: hidden;
 }
