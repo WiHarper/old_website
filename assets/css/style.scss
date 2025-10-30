@@ -4,19 +4,22 @@
 
 @import "{{ site.theme }}";
 
-/* Expand all main page content slightly to the left */
-.main-content,
-.wrapper,
-.page-content {
-  margin-left: 0;              /* Remove theme's built-in left spacing */
-  padding-left: 10px;          /* Keep a small inner padding for readability */
-  width: calc(100% + 40px);    /* Slightly expand total width */
-  transform: translateX(-20px); /* Shift expansion evenly to the left */
-  box-sizing: border-box;      /* Prevent horizontal overflow issues */
+/* Make the main content area wider than the header */
+.wrapper, .page-content, .main-content {
+  max-width: 900px; /* Increase this from the default ~800px */
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Keep header, footer, and nav centered or unaffected */
-header, .site-header, footer, .site-footer {
-  transform: none;
-  margin: 0 auto;
+/* Keep header narrower for contrast */
+header, .site-header {
+  max-width: 800px;  /* slightly smaller than main content */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.page-content, .wrapper {
+  position: relative;
+  left: -10px;
 }
