@@ -3,7 +3,7 @@ title: "Wilson Harper"
 ---
 
 
-# Hey!
+# Hi!
 It's great to see you. 
 
 ![Alt text](assets/picture.jpg){:width="25%"}
