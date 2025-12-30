@@ -11,7 +11,7 @@ It's great to see you.
 
 I'm Wilson, an electrical and computer engineering student at Rice University fascinated by radars, rockets, and avionics. I've previously designed and researched synthetic aperture radars at the MIT Lincoln Lab, and at Rice, I'm involved in Rice Flight and Rice Eclipse rocketry. I'm excited to get even more hands-on, practical experience with CompE and signal processing. I'd love to chat about ECE, aerospace, Rice, or anything else!
 
-
+[website in progress]
 
 <!-- put this where you want the email to appear -->
 <div id="email" data-user="hello" data-domain="wilsonharper.net"></div>
